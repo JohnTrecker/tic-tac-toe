@@ -1,5 +1,7 @@
 # Tic-Tac-Toe toy problem
 
+https://media.giphy.com/media/YnZPEeeC7q6pQEZw1I/giphy.gif
+
 Play tic-tac-toe game versus simulated AI on standard and "mega" board
 
 ## Getting Started

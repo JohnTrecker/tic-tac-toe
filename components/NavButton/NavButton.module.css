@@ -1,0 +1,23 @@
+.navbutton {
+    width: 368px;
+    height: 60px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    background-color: white;
+
+    text-align: center;
+    color: #31625A;
+}
+
+.navbutton:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.selected {
+    box-shadow: inset 0 -4px 0 0 #31625A;
+}

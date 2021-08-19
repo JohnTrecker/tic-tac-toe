@@ -1,6 +1,6 @@
-# Tic-Tac-Toe toy problem
+![Logo of the project](https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif)
 
-![Logo of the project](https://media.giphy.com/media/YnZPEeeC7q6pQEZw1I/giphy.gif)
+# Tic-Tac-Toe toy problem
 
 Play tic-tac-toe game versus simulated AI on standard and "mega" board
 

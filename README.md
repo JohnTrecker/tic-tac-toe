@@ -2,7 +2,7 @@
 
 # Tic-Tac-Toe toy problem
 
-Play tic-tac-toe game versus simulated AI on standard and "mega" board
+Play tic-tac-toe against a simulated AI on standard or mega board
 
 ## Getting Started
 
@@ -18,4 +18,4 @@ Second, run the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the coding challenge.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the game UI.

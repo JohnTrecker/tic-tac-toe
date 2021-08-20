@@ -5,10 +5,12 @@ import styles from './Cell.module.scss'
 
 const VALUE_MAP = ['', 'X', 'O']
 
-export default function Cell({value, coordinates, handleClick}){
+export default function Cell({value, coordinates, type, handleClick}){
     const [isHovering, setIsHovering] = useState(false);
 
     const isEmpty = VALUE_MAP[value] === ''
+    const isHoveringEmptySpace = isEmpty && isHovering
+
     const cellStyles=cx([
         styles.box,
         isHovering ? styles.hover : ''
@@ -21,10 +23,8 @@ export default function Cell({value, coordinates, handleClick}){
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
         >
-            <Marker mark={VALUE_MAP[value]}/>
-            {isEmpty && isHovering &&
-                <Marker mark="X"/>
-            }
+            <Marker mark={VALUE_MAP[value]} boardType={type}/>
+            {isHoveringEmptySpace && <Marker mark="X" boardType={type}/>}
         </div>
     )
 }

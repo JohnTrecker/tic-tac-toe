@@ -192,5 +192,5 @@ export function cx(classNames: string[]): string{
  */
 export function getBoardType(): string{
     const router = useRouter()
-    return router.route.slice(1) // remove forward-slash prefix
+    return router.route.slice(1) // remove / prefix
 }

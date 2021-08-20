@@ -20,7 +20,7 @@ export default function Grid({type}){
     const [isGameOver, isPlayerOneWinner] = useGameParameters(type, gameBoard, recentPlay)
     const router = useRouter()
 
-    useEffect(opponentPlay, [isYourTurn])
+    useEffect(opponentPlay, [isYourTurn, isGameOver])
 
     const xstyles = cx([
         styles.board,
@@ -38,6 +38,7 @@ export default function Grid({type}){
                     <Cell
                         key={`${value}-${i}`}
                         value={value}
+                        type={type}
                         coordinates={getCoordinates(i, type)}
                         handleClick={handleCellClick}
                     />

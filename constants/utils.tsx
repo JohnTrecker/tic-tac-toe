@@ -46,7 +46,7 @@ export function flatten(nestedArray: number[][]): number[] {
  * Check for winning 3-in-a-row pattern (e.g. horizontally, vertically, diagonally)
  *
  * @param {number[][]} board - represenation of the tic-tac-toe board
- * @returns {number} - corresponding to winner: 0 if none, 1 if playerOne, 2 if playerThree
+ * @returns {number} - corresponding to winner: 0 if none, 1 if playerOne, 2 if playerTwo
  */
 export function validateDefault(board: number[][]): number{
     const [

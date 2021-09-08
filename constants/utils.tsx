@@ -121,7 +121,7 @@ function isFourInARow(rowOrColumn: number[], value: number): boolean {
 }
 
 /**
- * Get original coordinates of from nested array given an index from the flattened array
+ * Get original coordinates from nested array given an index from the flattened array
  *
  * @param {number} index of flattened array
  * @param {string} type of tic-tac-toe grid (e.g. tic-tac-toe, mega-tic-tac-toe)
